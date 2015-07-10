@@ -9,22 +9,22 @@ Returns classic DjangoCMS-style live-draft switch to DjangoCMS.
 With 3.1 release, DjangoCMS crew decided to replace the fabulous live-draft toggle / switch with 
 plain dumb boring buttons.
 
-![https://github.com/frnhr/djangocms-livedraftswitch/blob/master/docs/img/djangocms_toolbar_dilema.jpg]
+![The change in 3.1](https://raw.githubusercontent.com/frnhr/djangocms-livedraftswitch/master/docs/img/djangocms_toolbar_dilema.jpg).
 
 **I DON'T THINK SO!!!11number_one**
 
-This is a quick'n'dirty response - a JavaScript (jQuery, what else?!) hack that replaces those new
-buttons with something resembling the old toggle. 
+This is a quick'n'dirty respons. It's a JavaScript (jQuery, what else?!) hack that replaces those 
+new buttons with something resembling the old toggle. 
 
-![https://github.com/frnhr/djangocms-livedraftswitch/blob/master/docs/img/the_new_toggle.jpg]
+![Toggle that this app provides](https://raw.githubusercontent.com/frnhr/djangocms-livedraftswitch/master/docs/img/the_new_toggle.jpg).
 
 
 
 ## Oh common, that's not really a problem!
 
 Well, it's not, really. But IMHO it's a step in the wrong direction, be it a tiny one. 
-And anyways, I find it simpler to quickly whip up this app together then to explain to my clients that 
-nothing has really changed.
+And anyways, I find it simpler to quickly whip up this app together then to explain to my clients 
+that nothing has really changed.
   
   
   
