@@ -11,7 +11,7 @@ readme = read_file('README.md')
 changes = read_file('CHANGES.md')
 
 setup(
-    name='tocka-django-maintenancemode',
+    name='djangocms-livedraftswitch',
     version=version,
     description='Returns classic DjangoCMS-style live-draft switch to DjangoCMS',
     long_description='\n\n'.join([readme, changes]),
