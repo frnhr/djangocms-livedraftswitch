@@ -1,7 +1,14 @@
 import os
 from setuptools import setup
+from djangocms_livedraftswitch import VERSION
 
-version = '0.2.1'
+try:
+    from pypandoc import convert
+    read_md = lambda f: convert(f, 'rst', 'md')
+except ImportError:
+    print("warning: pypandoc module not found, could not convert Markdown to RST")
+    read_md = lambda f: open(f, 'r').read()
+
 
 def read_file(name):
     return open(os.path.join(os.path.dirname(__file__), 
@@ -12,9 +19,9 @@ changes = read_file('CHANGES.md')
 
 setup(
     name='djangocms-livedraftswitch',
-    version=version,
+    version=VERSION,
     description='Returns classic DjangoCMS-style live-draft switch to DjangoCMS',
-    long_description='\n\n'.join([readme, changes]),
+    long_description=read_md('\n\n'.join([readme, changes])),
     author='Fran Hrzenjak',
     author_email='fran.hrzenjak@gmail.com',
     license="The Unlicense",
