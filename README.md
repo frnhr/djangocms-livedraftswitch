@@ -70,12 +70,12 @@ Browsers:
  * Safari 8.0.7  - animation is a bit jerky
  * IE 10+
  * IE 9 - no animation
+
+
+## Is that a demo project there?
  
- 
- ## Is that a demo project?
- 
- If you clone this repo, you'll get a full demo project. Not much of one, though, just a default 
- DjangoCMS setup with this app installed. But this repo includes a SQLite database, so you can test
- it right away. Login with `admin` and `admin`.
- 
+If you clone this repo, you'll get a full demo project. Not much of one, though, just a default 
+DjangoCMS setup with this app installed. But this repo includes a SQLite database, so you can test
+it right away. Login with `admin` and `admin`.
+
  
