@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-version = '0.2.0'
+version = '0.2.1'
 
 def read_file(name):
     return open(os.path.join(os.path.dirname(__file__), 
@@ -11,7 +11,7 @@ readme = read_file('README.md')
 changes = read_file('CHANGES.md')
 
 setup(
-    name='tocka-django-maintenancemode',
+    name='djangocms-livedraftswitch',
     version=version,
     description='Returns classic DjangoCMS-style live-draft switch to DjangoCMS',
     long_description='\n\n'.join([readme, changes]),

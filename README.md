@@ -13,8 +13,8 @@ plain dumb boring buttons.
 
 **I DON'T THINK SO!!!11number_one**
 
-This is a quick'n'dirty respons. It's a JavaScript (jQuery, what else?!) hack that replaces those 
-new buttons with something resembling the old toggle. 
+This is a quick'n'dirty response to that change. It's a JavaScript (jQuery, what else?!) hack 
+that replaces those new buttons with something resembling the old toggle. 
 
 ![Toggle that this app provides](https://raw.githubusercontent.com/frnhr/djangocms-livedraftswitch/master/docs/img/the_new_toggle.jpg).
 
@@ -52,6 +52,9 @@ Add before `cms` app:
         'cms',
         ...
     )
+
+If you don't like Pypi, you can dump `djangocms-livedraftswitch` directory somewhere 
+in `PYTHONPATH`.
  
 
 ## Compatibility?
@@ -61,6 +64,7 @@ Not tested much really...
 Works with DjangoCMS 3.1.2 and Django 1.7.9.
 
 Browsers: 
+
  * Google Chrome 64
  * Firefox 38
  * Safari 8.0.7  - animation is a bit jerky
@@ -70,7 +74,8 @@ Browsers:
  
  ## Is that a demo project?
  
- Yeap. Not much of one, though, just a default DjangoCMS setup with this app installed. But this 
- repo includes a SQLite database, so you can test it right away. Login with `admin` and `admin`.
+ If you clone this repo, you'll get a full demo project. Not much of one, though, just a default 
+ DjangoCMS setup with this app installed. But this repo includes a SQLite database, so you can test
+ it right away. Login with `admin` and `admin`.
  
  

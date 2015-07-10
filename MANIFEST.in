@@ -1,0 +1,3 @@
+include README.md
+recursive-include djangocms_livedraftswitch/static *
+recursive-include djangocms_livedraftswitch/templates *
